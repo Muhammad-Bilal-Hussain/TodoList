@@ -61,7 +61,7 @@ while (condition) {
         let tododelete = await inquirer.prompt([
             {
                 name: "deleteList",
-                message: "Are U Sure Delete This",
+                message: "What You Want to do Delete in This Array",
                 choices: todoList.map((item) => item),
             }
         ]);
